@@ -1,0 +1,128 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical Midterm</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app-Orbit.css">
+    <link rel="stylesheet" href="css/app-Response.css">
+    <link rel="stylesheet" href="css/app-Donate.css">
+  </head>
+  <body>
+    <!-- Start Orbit HTML -->
+    <div class="row collapse expanded">
+      <div class="small-12 medium-12 large-12 columns">
+        <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+          <ul class="orbit-container">
+            <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+            <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+            <li class="is-active orbit-slide">
+              <img class="orbit-image" src="http://foundation.zurb.com/sites/docs/assets/img/orbit/01.jpg" alt="Space">
+              <span class="orbit-caption"><p>Resteraunt Finder</p></span>
+            </li>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="http://foundation.zurb.com/sites/docs/assets/img/orbit/01.jpg" alt="Space">
+              <span class="orbit-caption"><p>Donate to help us expand!</p></span>
+            </li>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="http://foundation.zurb.com/sites/docs/assets/img/orbit/01.jpg" alt="Space">
+              <span class="orbit-caption"><p>Check our Social Media to see updates and much more!</p></span>
+            </li>
+          </ul>
+          <nav class="orbit-bullets">
+            <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+            <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+            <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+            <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- End Orbit HTML -->
+
+    <!-- Start Reponse HTML -->
+    <section class="search">
+      <div class="row">
+        <div class="small-12 large-10 columns small-centered">
+          <h2>Find a Cool Restaurant! </h2>
+          <form class="custom">
+            <div class="row">
+              <div class="large-3 small-12 columns">
+                <label>
+                  Food Type:
+                </label>
+                <select>
+                  <option value="All">All</option>
+                  <option value="Mediterranean">Mediterranean</option>
+                  <option value="Chinese">Chinese</option>
+                  <option value="Fast">Fast Food</option>
+                  <option value="Vegetarian">Vegetarian</option>
+                </select>
+              </div>
+              <div class="large-3 small-6 columns">
+                <label>
+                  Price Range:
+                </label>
+                <select>
+                  <option value="0-5">&#36;0-&#36;5</option>
+                  <option value="5-10">&#36;5-&#36;10</option>
+                  <option value="10-15">&#36;10-&#36;15</option>
+                  <option value="15-20">&#36;15-&#36;20</option>
+                  <option value="20-25">&#36;20-&#36;25</option>
+                  <option value="25-30">&#36;25-&#36;30</option>
+                  <option value="more">more than &#36;30</option>
+                </select>
+              </div>
+              <div class="large-3 small-6 columns">
+                <label>
+                  Location:
+                </label>
+                <select>
+                  <option value="mile"> near me</option>
+                  <option value="2-mile">2 miles</option>
+                  <option value="5-mile">5 miles</option>
+                  <option value="25-mile">25 miles</option>
+                  <option value="more-mile">more</option>
+                </select>
+              </div>
+              <div class="large-3 small-12 columns expand">
+                <a href="#" class="button expand">Search</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- End Response HTML -->
+
+    <!-- Start Donate HTML -->
+    <div class="promo-bar">
+
+      <div class="row">
+        <div class="column medium-3">
+          <h2 class="promo-bar-title">Help Us Expand Our Service!</h2>
+        </div>
+        <div class="column medium-7 promo-bar-status">
+          <p>We’re 0% there and need your help!</p>
+          <div class="progress large" role="progressbar" tabindex="0" aria-valuenow="20" aria-valuemin="0" aria-valuetext="25 percent" aria-valuemax="100">
+            <span class="progress-meter" style="width: 0%">
+              <p class="progress-meter-text">$0</p>
+            </span>
+          </div>
+        </div>
+        <div class="column medium-2 promo-bar-donate">
+          <a href="#">Donate Now!</a>
+        </div>
+      </div>
+
+    </div>
+    <!-- End Donate HTML -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
