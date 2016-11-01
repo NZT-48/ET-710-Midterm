@@ -1,0 +1,75 @@
+.promo-bar {
+  background: gray;
+  margin-top: 5px;
+  min-height: 80px; }
+
+  .sr .progress-meter {
+    visibility: hidden; }
+
+    .progress {
+      perspective: 800px; }
+
+      .promo-bar-title {
+        font-size: 22px;
+        color: #fff;
+        margin-top: 15px;
+        font-weight: bold;
+        line-height: 1.1;
+        text-align: center; }
+        @media screen and (min-width: 39.9375em) {
+          .promo-bar-title {
+            text-align: left; } }
+            @media screen and (max-width: 39.9375em) {
+              .promo-bar-title {
+                margin-top: 2rem; } }
+
+                .donate-progress {
+                  margin: 24px auto 16px auto; }
+
+                  .promo-bar-status {
+                    text-align: center;
+                    padding-top: 8px;
+                    padding-bottom: 8px; }
+                    @media screen and (min-width: 39.9375em) {
+                      .promo-bar-status {
+                        padding-right: 70px;
+                        padding-left: 40px; } }
+                        .promo-bar-status p {
+                          color: #fff;
+                          margin-bottom: 14px; }
+                          .promo-bar-status .progress {
+                            border-radius: 20px;
+                            background: #4d4d4d;
+                            margin-bottom: 0; }
+                            @media screen and (max-width: 39.9375em) {
+                              .promo-bar-status .progress {
+                                margin-bottom: 1rem; } }
+                                .promo-bar-status .progress-meter {
+                                  background: #fff;
+                                  border-radius: 20px; }
+
+                                  .promo-bar-donate {
+                                    background: orange;
+                                    text-align: center; }
+                                    @media screen and (min-width: 39.9375em) {
+                                      .promo-bar-donate {
+                                        border-left: 5px solid #fff;
+                                        border-right: 5px solid #fff;
+                                        min-height: 80px; } }
+                                        .promo-bar-donate:hover {
+                                          background: #ffae1a; }
+                                          .promo-bar-donate a {
+                                            width: 100%;
+                                            color: #fff;
+                                            display: block;
+                                            line-height: 40px;
+                                            font-weight: 700;
+                                            font-size: rem-calc(16); }
+                                            @media screen and (min-width: 39.9375em) {
+                                              .promo-bar-donate a {
+                                                line-height: 80px; } }
+
+                                                @media screen and (min-width: 704px) and (max-width: 816px) {
+                                                  .promo-bar-donate.column, .promo-bar-donate.columns {
+                                                    padding-left: 0;
+                                                    padding-right: 0; } }
